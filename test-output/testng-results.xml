@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-25T08:50:34 IST" name="Suite" finished-at="2023-06-25T08:51:02 IST" duration-ms="27272">
+    <groups>
+    </groups>
+    <test started-at="2023-06-25T08:50:34 IST" name="Test" finished-at="2023-06-25T08:51:02 IST" duration-ms="27272">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.HomePageTest@6e0f5f7f]" started-at="2023-06-25T08:50:34 IST" name="beforeSuite" finished-at="2023-06-25T08:50:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@6e0f5f7f]" started-at="2023-06-25T08:50:34 IST" name="setUp" finished-at="2023-06-25T08:50:52 IST" duration-ms="17109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@6e0f5f7f]" started-at="2023-06-25T08:50:52 IST" name="HomePageTest1" description="Check whether title of ORangeHRM is dispalyed correctly" data-provider="getData" finished-at="2023-06-25T08:50:55 IST" duration-ms="3858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@6e0f5f7f]" started-at="2023-06-25T08:50:55 IST" name="tearDown" finished-at="2023-06-25T08:51:02 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.verifyAddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.verifyAddCustomerTest@4803b726]" started-at="2023-06-25T08:50:34 IST" name="setUp" finished-at="2023-06-25T08:50:52 IST" duration-ms="17424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewCustomer()[pri:0, instance:tests.verifyAddCustomerTest@4803b726]" started-at="2023-06-25T08:50:52 IST" name="verifyNewCustomer" description="this test script will verify newly added customer" finished-at="2023-06-25T08:50:56 IST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.verifyAddCustomerTest@4803b726]" started-at="2023-06-25T08:50:56 IST" name="tearDown" finished-at="2023-06-25T08:51:02 IST" duration-ms="6009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.verifyAddCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
