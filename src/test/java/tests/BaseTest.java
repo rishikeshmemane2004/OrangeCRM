@@ -16,7 +16,6 @@ public class BaseTest {
 	public void beforeSuite() 
 	{
 		prop = ReadPropertyFile.readPropertyFile();
-		System.out.println("****");
 	}
 
 	@BeforeMethod
