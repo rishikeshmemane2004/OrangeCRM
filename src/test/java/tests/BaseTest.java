@@ -15,6 +15,7 @@ public class BaseTest {
 	@BeforeSuite
 	public void beforeSuite() 
 	{
+		System.out.println("checking ....");
 		prop = ReadPropertyFile.readPropertyFile();
 	}
 
